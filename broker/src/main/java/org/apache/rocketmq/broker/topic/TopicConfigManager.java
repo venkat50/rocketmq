@@ -608,6 +608,7 @@ public class TopicConfigManager extends ConfigManager {
     }
 
     public ConcurrentMap<String, TopicConfig> getTopicConfigTable() {
+        log.info("Returning TopicConfig Table");
         return topicConfigTable;
     }
 
