@@ -174,7 +174,7 @@ public class TagMessageWith1ConsumerIT extends BaseConf {
     @Test
     public void testSubTagWithKindsOfMessage() {
         String tag1 = null;
-        String tag2 = "jueyin";
+        String tag2 = "mantri";
         String subExpress = tag2;
         int msgSize = 10;
         RMQNormalConsumer consumer = getConsumer(nsAddr, topic, subExpress,
