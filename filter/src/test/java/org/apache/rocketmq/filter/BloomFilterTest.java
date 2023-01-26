@@ -52,6 +52,7 @@ public class BloomFilterTest {
     @Test
     public void testHashTo() {
         String cid = "CID_abc_efg";
+        String mit = "CID_abc_efg";
 
         BloomFilter bloomFilter = BloomFilter.createByFn(10, 20);
 
