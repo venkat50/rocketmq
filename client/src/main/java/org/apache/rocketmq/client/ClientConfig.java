@@ -335,7 +335,7 @@ public class ClientConfig {
         return namespace;
     }
 
-    // Sample comment to trigger
+   
     public void setNamespace(String namespace) {
         this.namespace = namespace;
         this.namespaceInitialized = true;
