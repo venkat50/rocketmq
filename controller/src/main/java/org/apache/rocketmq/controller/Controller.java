@@ -32,6 +32,8 @@ import org.apache.rocketmq.remoting.protocol.RemotingCommand;
  * The api for controller
  */
 public interface Controller {
+    
+    // Hello
 
     /**
      * Startup controller
