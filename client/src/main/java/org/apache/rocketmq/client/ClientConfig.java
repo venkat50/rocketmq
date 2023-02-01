@@ -75,6 +75,8 @@ public class ClientConfig {
      * And it will also generate a different client id to prevent unexpected reuses of MQClientInstance.
      */
     protected boolean enableStreamRequestType = false;
+    
+    // Sample trigger
 
     public String buildMQClientId() {
         StringBuilder sb = new StringBuilder();
