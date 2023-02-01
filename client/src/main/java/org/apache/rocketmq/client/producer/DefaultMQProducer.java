@@ -84,6 +84,8 @@ public class DefaultMQProducer extends ClientConfig implements MQProducer {
      * See <a href="http://rocketmq.apache.org/docs/core-concept/">core concepts</a> for more discussion.
      */
     private String producerGroup;
+    
+    // Sample
 
     /**
      * Just for testing or demo program
